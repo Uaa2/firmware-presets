@@ -135,6 +135,7 @@
   "uniqueValues": {
     "firmware_version": [
       "2025.12",
+      "2026.6",
       "3.5",
       "4.2",
       "4.3",
@@ -156,6 +157,7 @@
     "author": [
       "Alex Campbell (Chief)",
       "Alex Vanover",
+      "andybrwr",
       "antonig",
       "Armando Gallegos (Mondo)",
       "AyyyKayyy - Anthony Knight",
@@ -179,6 +181,7 @@
       "Foxeer Harvey",
       "FPV_Cam",
       "FPVian",
+      "Funkolius",
       "Garban",
       "Grey pang",
       "IllusionFpv",
@@ -192,6 +195,7 @@
       "Jye Smith",
       "KMfpv",
       "LeadFingers",
+      "Michael-GGG",
       "MinChan Kim",
       "mouseFPV",
       "MrAlucardDante",
@@ -226,8 +230,12 @@
       "166Hz",
       "1ms",
       "1S",
+      "2 in",
+      "2 inch",
+      "2.2 inch prop",
       "2.5in",
       "2.5W",
+      "2\"",
       "20",
       "2022",
       "2023",
@@ -260,7 +268,7 @@
       "4S",
       "5",
       "5 In",
-      "5 inch",
+      "5 Inch",
       "5.5",
       "5\"",
       "500Hz",
@@ -268,6 +276,7 @@
       "533",
       "55Hz",
       "5in",
+      "6",
       "6 inch",
       "6.67 ms",
       "6\"",
@@ -330,6 +339,8 @@
       "camera",
       "camera_control",
       "Cgo",
+      "champ",
+      "champ2",
       "Chief",
       "chris",
       "cine",
@@ -373,6 +384,7 @@
       "divimath",
       "DJI",
       "dominator",
+      "DP",
       "DShot telemetry",
       "eachine",
       "ELRS",
@@ -395,14 +407,16 @@
       "FPVCycle",
       "FPVCycle TP3",
       "fpvian",
+      "frame",
       "freedom",
       "freedom spec",
       "FreedomSpec",
-      "Freestyle",
+      "freestyle",
       "freesytle",
       "freetyle",
       "FreshBread",
       "frsky",
+      "Funkolius",
       "fx2",
       "Garban",
       "geprc",
@@ -426,6 +440,8 @@
       "IllusionFpv",
       "immersion",
       "immersionRC",
+      "impetus",
+      "impetus 2",
       "ImpulseRC",
       "IRC",
       "IRC Tramp",
@@ -456,6 +472,7 @@
       "mck",
       "meteor",
       "MGP",
+      "micro",
       "MinChan",
       "MM",
       "mode",
@@ -490,6 +507,7 @@
       "openracer",
       "OpenVTx",
       "OSD",
+      "oxbt",
       "ozr",
       "panda",
       "pandarc",
@@ -638,394 +656,6 @@
     ]
   },
   "presets": [
-    {
-      "fullPath": "presets/2025.12/filters/aos_rc/aos_3.5_filters.txt",
-      "hash": "45fc7920ddd5c8bc8842eea0312662d85963f8aef71db6b2f5d0ab8d2fe3fdb8",
-      "title": "AOS 3.5 Filters",
-      "firmware_version": [
-        "2025.12"
-      ],
-      "category": "FILTERS",
-      "status": "COMMUNITY",
-      "keywords": [
-        "filter",
-        "filters",
-        "aos",
-        "chris",
-        "rosser",
-        "3.5"
-      ],
-      "author": "Chris Rosser",
-      "priority": 100
-    },
-    {
-      "fullPath": "presets/2025.12/filters/aos_rc/aos_4_filters.txt",
-      "hash": "d7a706b29b7e12a8ae587cb14c752b80fdaa9ef92f16d8711f5bd685caba1df4",
-      "title": "AOS 4 Filters",
-      "firmware_version": [
-        "2025.12"
-      ],
-      "category": "FILTERS",
-      "status": "COMMUNITY",
-      "keywords": [
-        "filter",
-        "filters",
-        "aos",
-        "chris",
-        "rosser",
-        "4"
-      ],
-      "author": "Chris Rosser",
-      "priority": 100
-    },
-    {
-      "fullPath": "presets/2025.12/filters/aos_rc/aos_5.5_filters.txt",
-      "hash": "ee9961967eb98e171442700cc955be85c3381256b78259c035281d72c391da34",
-      "title": "AOS 5.5 Filters",
-      "firmware_version": [
-        "2025.12"
-      ],
-      "category": "FILTERS",
-      "status": "COMMUNITY",
-      "keywords": [
-        "filter",
-        "filters",
-        "aos",
-        "chris",
-        "rosser",
-        "5.5"
-      ],
-      "author": "Chris Rosser",
-      "priority": 100
-    },
-    {
-      "fullPath": "presets/2025.12/filters/aos_rc/aos_5_filters.txt",
-      "hash": "aad9700d455c4bbe8eafa165614d07b3508a01e2df5654fa47e36f833eed4a8f",
-      "title": "AOS 5 Filters",
-      "firmware_version": [
-        "2025.12"
-      ],
-      "category": "FILTERS",
-      "status": "COMMUNITY",
-      "keywords": [
-        "filter",
-        "filters",
-        "aos",
-        "chris",
-        "rosser",
-        "5"
-      ],
-      "author": "Chris Rosser",
-      "priority": 100
-    },
-    {
-      "fullPath": "presets/2025.12/filters/aos_rc/aos_65mm_filters.txt",
-      "hash": "186e1d775111c0675de468ba34780e60a582685d938ba58ceec44d512a05c3fa",
-      "title": "AOS 65mm Filters",
-      "firmware_version": [
-        "2025.12"
-      ],
-      "category": "FILTERS",
-      "status": "EXPERIMENTAL",
-      "keywords": [
-        "filter",
-        "filters",
-        "aos",
-        "chris",
-        "rosser",
-        "65mm",
-        "tiny",
-        "whoop"
-      ],
-      "author": "Chris Rosser",
-      "priority": 100
-    },
-    {
-      "fullPath": "presets/2025.12/filters/aos_rc/aos_7_filters.txt",
-      "hash": "e49e9fbc3c30d84d0ba68e14231165830ace0d342ed9d0cba3cb29b21da0d03a",
-      "title": "AOS 7 Filters",
-      "firmware_version": [
-        "2025.12"
-      ],
-      "category": "FILTERS",
-      "status": "COMMUNITY",
-      "keywords": [
-        "filter",
-        "filters",
-        "aos",
-        "chris",
-        "rosser",
-        "7"
-      ],
-      "author": "Chris Rosser",
-      "priority": 100
-    },
-    {
-      "fullPath": "presets/2025.12/filters/aos_rc/aos_cine20_filters.txt",
-      "hash": "0a1f4bc8ffd55fd4fbac70a9ce9a79611dbb0afc1f5c7eef89ea9f2aa1c83415",
-      "title": "AOS Cine20 Filters",
-      "firmware_version": [
-        "2025.12"
-      ],
-      "category": "FILTERS",
-      "status": "COMMUNITY",
-      "keywords": [
-        "filter",
-        "filters",
-        "aos",
-        "chris",
-        "rosser",
-        "cine",
-        "20"
-      ],
-      "author": "Chris Rosser",
-      "priority": 100
-    },
-    {
-      "fullPath": "presets/2025.12/filters/aos_rc/aos_cine25_filters.txt",
-      "hash": "21cdba1901eea5e126b63e1678f78da856700e6d1a0dd00aa40657c3f4c2028d",
-      "title": "AOS Cine25 Filters",
-      "firmware_version": [
-        "2025.12"
-      ],
-      "category": "FILTERS",
-      "status": "COMMUNITY",
-      "keywords": [
-        "filter",
-        "filters",
-        "aos",
-        "chris",
-        "rosser",
-        "cine",
-        "25"
-      ],
-      "author": "Chris Rosser",
-      "priority": 100
-    },
-    {
-      "fullPath": "presets/2025.12/filters/aos_rc/aos_cine30_filters.txt",
-      "hash": "3145ab71dce2b5e065480d1bdee219cb1739be6d6fc030a6d211fd71673b25ad",
-      "title": "AOS Cine30 Filters",
-      "firmware_version": [
-        "2025.12"
-      ],
-      "category": "FILTERS",
-      "status": "COMMUNITY",
-      "keywords": [
-        "filter",
-        "filters",
-        "aos",
-        "chris",
-        "rosser",
-        "cine",
-        "30"
-      ],
-      "author": "Chris Rosser",
-      "priority": 100
-    },
-    {
-      "fullPath": "presets/2025.12/filters/aos_rc/aos_cine35_filters.txt",
-      "hash": "4b1434472ef81acb562d4a6fe97c6efac2e15dc73d983bc26e7414485409f4af",
-      "title": "AOS Cine35 Filters",
-      "firmware_version": [
-        "2025.12"
-      ],
-      "category": "FILTERS",
-      "status": "COMMUNITY",
-      "keywords": [
-        "filter",
-        "filters",
-        "aos",
-        "chris",
-        "rosser",
-        "cine",
-        "35"
-      ],
-      "author": "Chris Rosser",
-      "priority": 100
-    },
-    {
-      "fullPath": "presets/2025.12/filters/aos_rc/aos_cine40_filters.txt",
-      "hash": "fa0a6885266e7145e2f20816807ac0bd498d2981f949f3aaa12fe13f8f75b20d",
-      "title": "AOS Cine40 Filters",
-      "firmware_version": [
-        "2025.12"
-      ],
-      "category": "FILTERS",
-      "status": "COMMUNITY",
-      "keywords": [
-        "filter",
-        "filters",
-        "aos",
-        "chris",
-        "rosser",
-        "cine",
-        "40"
-      ],
-      "author": "Chris Rosser",
-      "priority": 100
-    },
-    {
-      "fullPath": "presets/2025.12/filters/aos_rc/aos_cine80_filters.txt",
-      "hash": "5b0fe45e0c660552efcdaae31a89c2f4fd04fadcf0042ddd128672c97a5eb002",
-      "title": "AOS Cine80 Filters",
-      "firmware_version": [
-        "2025.12"
-      ],
-      "category": "FILTERS",
-      "status": "COMMUNITY",
-      "keywords": [
-        "filter",
-        "filters",
-        "aos",
-        "chris",
-        "rosser",
-        "cine80"
-      ],
-      "author": "Chris Rosser",
-      "priority": 100
-    },
-    {
-      "fullPath": "presets/2025.12/filters/aos_rc/aos_hs5_filters.txt",
-      "hash": "4ce10da6773803eacd89d6eb965aa8ff97e0c8f160e145af217119547cf3248a",
-      "title": "AOS HS5 200mph Filters",
-      "firmware_version": [
-        "2025.12"
-      ],
-      "category": "FILTERS",
-      "status": "EXPERIMENTAL",
-      "keywords": [
-        "filter",
-        "filters",
-        "aos",
-        "chris",
-        "rosser",
-        "HS5"
-      ],
-      "author": "Chris Rosser",
-      "priority": 100
-    },
-    {
-      "fullPath": "presets/2025.12/filters/aos_rc/aos_lr5_filters.txt",
-      "hash": "ae98a49e3af2af61bcdd318b28cd0fd2a9257ee634e458334ec9172e77abd677",
-      "title": "AOS LR5 Filters",
-      "firmware_version": [
-        "2025.12"
-      ],
-      "category": "FILTERS",
-      "status": "COMMUNITY",
-      "keywords": [
-        "filter",
-        "filters",
-        "aos",
-        "chris",
-        "rosser",
-        "lr5"
-      ],
-      "author": "Chris Rosser",
-      "priority": 100
-    },
-    {
-      "fullPath": "presets/2025.12/filters/aos_rc/aos_t3_filters.txt",
-      "hash": "7f220443ccf7d9f940ff8f19e4bdbbbf8b0a5eb9688db6296274eadf25088b77",
-      "title": "AOS T3 Filters",
-      "firmware_version": [
-        "2025.12"
-      ],
-      "category": "FILTERS",
-      "status": "COMMUNITY",
-      "keywords": [
-        "filter",
-        "filters",
-        "aos",
-        "chris",
-        "rosser",
-        "T3",
-        "3"
-      ],
-      "author": "Chris Rosser",
-      "priority": 100
-    },
-    {
-      "fullPath": "presets/2025.12/filters/aos_rc/aos_ul10_filters.txt",
-      "hash": "a71b5a733e6a240588ff0777dc52382b3b6002f435639abce1aa9a60352156e0",
-      "title": "AOS UL10 Filters",
-      "firmware_version": [
-        "2025.12"
-      ],
-      "category": "FILTERS",
-      "status": "COMMUNITY",
-      "keywords": [
-        "filter",
-        "filters",
-        "aos",
-        "chris",
-        "rosser",
-        "ul10"
-      ],
-      "author": "Chris Rosser",
-      "priority": 100
-    },
-    {
-      "fullPath": "presets/2025.12/filters/aos_rc/aos_ul5_filters.txt",
-      "hash": "4e4d1d60b437de7b0f2dd1df3f4a6955235bfe723e7609855d8550af28b920fc",
-      "title": "AOS UL5 Filters",
-      "firmware_version": [
-        "2025.12"
-      ],
-      "category": "FILTERS",
-      "status": "COMMUNITY",
-      "keywords": [
-        "filter",
-        "filters",
-        "aos",
-        "chris",
-        "rosser",
-        "ul5"
-      ],
-      "author": "Chris Rosser",
-      "priority": 100
-    },
-    {
-      "fullPath": "presets/2025.12/filters/aos_rc/aos_ul7_filters.txt",
-      "hash": "fa84dc2d8d682671a4186c90c69e0c3409b815b0f8ac2f836cd5a78efc01b67f",
-      "title": "AOS UL7 Filters",
-      "firmware_version": [
-        "2025.12"
-      ],
-      "category": "FILTERS",
-      "status": "COMMUNITY",
-      "keywords": [
-        "filter",
-        "filters",
-        "aos",
-        "chris",
-        "rosser",
-        "ul7"
-      ],
-      "author": "Chris Rosser",
-      "priority": 100
-    },
-    {
-      "fullPath": "presets/2025.12/filters/aos_rc/aos_ul8_filters.txt",
-      "hash": "a8776290a7d8647241acb17932f8a14ebc6a3c1c1be6d4414c78e41821c2c157",
-      "title": "AOS UL8 Filters",
-      "firmware_version": [
-        "2025.12"
-      ],
-      "category": "FILTERS",
-      "status": "COMMUNITY",
-      "keywords": [
-        "filter",
-        "filters",
-        "aos",
-        "chris",
-        "rosser",
-        "ul8"
-      ],
-      "author": "Chris Rosser",
-      "priority": 100
-    },
     {
       "fullPath": "presets/2025.12/osd/FaderFPV_DJI.txt",
       "hash": "70e7f9fcda229496c68e8a0361a7ab5cff2f2eb2370d94d71b214d7d3e6e14c8",
@@ -2155,11 +1785,37 @@
       "priority": 10000000000
     },
     {
-      "fullPath": "presets/2025.12/tune/aos_rc/aos_3.5_tune.txt",
-      "hash": "07b06b140fed022fa69c6c2438cf37677e5c43fbd1f960fb4f55bec1dfa5661b",
-      "title": "AOS 3.5 tune by Chris Rosser",
+      "fullPath": "presets/2025.12/tune/Funkolius_Impetus_Frame.txt",
+      "hash": "3cf8a63e7cd2b74ceb1bd1ad023c32dcd8d1757584223a5e883018bffffac5b4",
+      "title": "Funkolius - Impetus 2 Frame",
       "firmware_version": [
         "2025.12"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "freestyle",
+        "impetus 2",
+        "impetus",
+        "micro",
+        "2 inch",
+        "2 in",
+        "2\"",
+        "2.2 inch prop",
+        "frame",
+        "Funkolius"
+      ],
+      "author": "Funkolius",
+      "force_options_review": false,
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/2025.12/tune/aos_rc/aos_3.5_tune.txt",
+      "hash": "ac95a1c6360e529ccb452a37082dc2ab48fa8f4599514090ada94a5612e574df",
+      "title": "AOS 3.5 tune by Chris Rosser",
+      "firmware_version": [
+        "2025.12",
+        "2026.6"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2177,10 +1833,11 @@
     },
     {
       "fullPath": "presets/2025.12/tune/aos_rc/aos_4_tune.txt",
-      "hash": "15fe9a9eebf1e8cde97ba6d655ab62f6b97cbc32e9c50b0ec489689274761a39",
+      "hash": "756500fd29c9adb28e958c066a439bc273b256443356d90b06964d3ac62c852d",
       "title": "AOS 4 tune by Chris Rosser",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "2026.6"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2198,10 +1855,11 @@
     },
     {
       "fullPath": "presets/2025.12/tune/aos_rc/aos_5.5_tune.txt",
-      "hash": "e0001541969ffae13e45bdee795040c76d0949e204b3c88fd13e49cf359024eb",
+      "hash": "488dec462dea4e7a9c61985abb20b8bb683f7557564782cd2787cce1814b8d12",
       "title": "AOS 5.5 tune by Chris Rosser",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "2026.6"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2219,10 +1877,11 @@
     },
     {
       "fullPath": "presets/2025.12/tune/aos_rc/aos_5_tune.txt",
-      "hash": "a41c9459999c16077d92101b94f071141512c2b385dd26dd3dd5a2a5b28d878b",
+      "hash": "21acbc30dabeee51fb59332a63728736cd5f8f65ea1670b8ffdcd766b818725a",
       "title": "AOS 5 tune by Chris Rosser",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "2026.6"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2240,10 +1899,11 @@
     },
     {
       "fullPath": "presets/2025.12/tune/aos_rc/aos_65mm_tune.txt",
-      "hash": "00e19a3561d3b25070b41fd77aa789937ef7e2261d4bc094f496f992e1fdfc0b",
+      "hash": "3081ca109e71bcccb42789ef551ea83ba6d0f53a19ecb623fde140554aae8e41",
       "title": "65mm Tiny whoop tune by Chris Rosser",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "2026.6"
       ],
       "category": "TUNE",
       "status": "EXPERIMENTAL",
@@ -2262,11 +1922,34 @@
       "priority": 1000000000000
     },
     {
+      "fullPath": "presets/2025.12/tune/aos_rc/aos_6_tune.txt",
+      "hash": "2f4341888f8b08924f5e5d375fa013378275e74c3a282df432c487b670973e8e",
+      "title": "AOS 6 tune by Chris Rosser",
+      "firmware_version": [
+        "2025.12",
+        "2026.6"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "aos",
+        "chris",
+        "rosser",
+        "pid",
+        "tune",
+        "6"
+      ],
+      "author": "Chris Rosser",
+      "force_options_review": true,
+      "priority": 1000000000000
+    },
+    {
       "fullPath": "presets/2025.12/tune/aos_rc/aos_7_tune.txt",
-      "hash": "552b0fbd493e9e4d5c91840916f510c6f99076455ae81e8b0b7216f6c3d2d7b5",
+      "hash": "45836d3e401f7aa24f7b19908de65fd5224969631d70daba72df1516b6dbd016",
       "title": "AOS 7 tune by Chris Rosser",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "2026.6"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2284,10 +1967,11 @@
     },
     {
       "fullPath": "presets/2025.12/tune/aos_rc/aos_cine20_tune.txt",
-      "hash": "267cea6fed7bfa92c3eda9c34f2ef0ee13a184543358fd4de13e882cf56fa06b",
+      "hash": "3f63f5431686c722eb75944988cb13bd156b61ad315d25e6fe274f3a578a265a",
       "title": "AOS Cine20 tune by Chris Rosser",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "2026.6"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2306,10 +1990,11 @@
     },
     {
       "fullPath": "presets/2025.12/tune/aos_rc/aos_cine25_tune.txt",
-      "hash": "fba6845ae1a97d1a49a3d005a888516b67f3a78caf2629264b0771ed46db102d",
+      "hash": "0d3f5160448bb7b49a0a1dd61303decc8c8e6a2d74a4d58069f71678669949cd",
       "title": "AOS Cine25 tune by Chris Rosser",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "2026.6"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2328,10 +2013,11 @@
     },
     {
       "fullPath": "presets/2025.12/tune/aos_rc/aos_cine30_tune.txt",
-      "hash": "c89d6131e48c97504ea98cb54c0459179187eac981541a80de96341c21fe7d8f",
+      "hash": "fd138cfa0a00710a903da857f1e3ec90283cec309e262ce4b157489ab8fbcdd6",
       "title": "AOS Cine30 tune by Chris Rosser",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "2026.6"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2350,10 +2036,11 @@
     },
     {
       "fullPath": "presets/2025.12/tune/aos_rc/aos_cine35_tune.txt",
-      "hash": "c620fe3712a021a47ff52e5a4dc2486caccb0fe753226e7a47e5420a59ee43b3",
+      "hash": "55ad6713049c8ecdc465202d35c687b585e72b262188984bae2b9e6d5e3e9cf8",
       "title": "AOS Cine35 tune by Chris Rosser",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "2026.6"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2371,10 +2058,11 @@
     },
     {
       "fullPath": "presets/2025.12/tune/aos_rc/aos_cine40_tune.txt",
-      "hash": "67b516adc7ad4b30354f073468ac647f78951e368c17059f569b546724a709ab",
+      "hash": "6546d7c69b528845871ea6c417754faa17e63137cf79d8e2b01c8a920b35639b",
       "title": "AOS Cine40 tune by Chris Rosser",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "2026.6"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2393,10 +2081,11 @@
     },
     {
       "fullPath": "presets/2025.12/tune/aos_rc/aos_cine80_tune.txt",
-      "hash": "0b9ba45b724df33494b3fa120e1786a6d7585a5221cb77f2002d466171c0f5b1",
+      "hash": "602bd4000cde307e40eb25c0acd051bf1d7218792e9ffd3ee43bbea7b56307a1",
       "title": "AOS Cine80 tune by Chris Rosser",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "2026.6"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2414,10 +2103,11 @@
     },
     {
       "fullPath": "presets/2025.12/tune/aos_rc/aos_hdzero_aio5_65mm.txt",
-      "hash": "c64f8282d5ca04ed20af8d1665a979afff7f2bea5aabf6e1018178b316678143",
+      "hash": "5749d2beee68c7b8d31ade465b334c94a135beb617011cbd10ba61986a242d1a",
       "title": "HDZERO AIO5 65mm Whoop tune by Chris Rosser",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "2026.6"
       ],
       "category": "TUNE",
       "status": "EXPERIMENTAL",
@@ -2440,10 +2130,11 @@
     },
     {
       "fullPath": "presets/2025.12/tune/aos_rc/aos_hs5_tune.txt",
-      "hash": "ec3b828a15c4fb86661e04be7119b62b8f597cae63ec7cc2b0c2a960eb819dc6",
+      "hash": "32d9529c38b05805f414a229ed6f5c946e4ff9072e2063aac78f09105e2a61bb",
       "title": "AOS HS5 200mph tune by Chris Rosser",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "2026.6"
       ],
       "category": "TUNE",
       "status": "EXPERIMENTAL",
@@ -2461,10 +2152,11 @@
     },
     {
       "fullPath": "presets/2025.12/tune/aos_rc/aos_lr5_tune.txt",
-      "hash": "b6b987620086f6e65e7699401367b66f001933c09c54b7f452d07355542e3af2",
+      "hash": "35d8ff7e12d99a2ae307289b237f5aeac83d3c8b3e56beef8091ad9f1b7ac9f8",
       "title": "AOS LR5 tune by Chris Rosser",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "2026.6"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2482,10 +2174,11 @@
     },
     {
       "fullPath": "presets/2025.12/tune/aos_rc/aos_t3_tune.txt",
-      "hash": "23b30b890c22a48eed284704f32e7b9b29b904f7aabe67f1bcbbcc51d15e44c3",
+      "hash": "1ad28389fc93c1083f061b7d8d49b5b98702bd384e16ac4b9a87328a0440b043",
       "title": "AOS T3 tune by Chris Rosser",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "2026.6"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2504,10 +2197,11 @@
     },
     {
       "fullPath": "presets/2025.12/tune/aos_rc/aos_ul10_tune.txt",
-      "hash": "fdb5f712befcfdc82326a6f36880927200b9fbcc96355793514ffb887af3a5c5",
+      "hash": "c9d348ecb4ff9022a06e3ad98eac749e0e5ce295015c823cd9fdc84028955895",
       "title": "AOS UL10 tune by Chris Rosser",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "2026.6"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2525,10 +2219,11 @@
     },
     {
       "fullPath": "presets/2025.12/tune/aos_rc/aos_ul5_tune.txt",
-      "hash": "a9f6390347789bab0133ef5317e40d598c3ccdee152337cef5645289a6786a8c",
+      "hash": "d860d2859c1d6bb6261645de44e98b11d49c779f83a0340f402fe27298dd2f7b",
       "title": "AOS UL5 tune by Chris Rosser",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "2026.6"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2546,10 +2241,11 @@
     },
     {
       "fullPath": "presets/2025.12/tune/aos_rc/aos_ul7_tune.txt",
-      "hash": "e6d2955e2b50583e904d5b4d65076a28c05ffc98135742bcdcd66ff826cd2d39",
+      "hash": "0119bbd58f20cb281e5265d5d07e84a25c4a4dbff309265bd736eaf3dea6b533",
       "title": "AOS UL7 tune by Chris Rosser",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "2026.6"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2567,10 +2263,11 @@
     },
     {
       "fullPath": "presets/2025.12/tune/aos_rc/aos_ul8_tune.txt",
-      "hash": "113f7f0af63bde93a6529a7e48af3fc790d9fd93a8ce7a3dc89dcaaa872af84c",
+      "hash": "408a96d00ed59d85315ccf904607a6955c2e81d87e8d7716ea198372bc8ba333",
       "title": "AOS UL8 tune by Chris Rosser",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "2026.6"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -2583,6 +2280,29 @@
         "ul8"
       ],
       "author": "Chris Rosser",
+      "force_options_review": true,
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/2025.12/tune/basher_jazzmutant_tune.txt",
+      "hash": "aa910f580d1c6c8c339f31ab8f258b77f24a8fd9bf04861bbfc8ef6d3edef544",
+      "title": "Basher 5\" 6S by JazzMutant",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "basher",
+        "freestyle",
+        "5 Inch",
+        "5 In",
+        "5\"",
+        "recopter",
+        "bando",
+        "JazzMutant"
+      ],
+      "author": "JazzMutant",
       "force_options_review": true,
       "priority": 1000000000000
     },
@@ -2698,6 +2418,26 @@
       ],
       "author": "JazzMutant",
       "force_options_review": true,
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/2025.12/tune/oxbt_champ2_factory.txt",
+      "hash": "7e846d80319d8af7b53f61f2a7b494f9d2babfe26e7e36aca0732cd2ed6a86c3",
+      "title": "OXBT CHAMP2 Factory Preset",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "oxbt",
+        "champ2",
+        "champ",
+        "factory",
+        "pid",
+        "tune"
+      ],
+      "author": "Michael-GGG",
       "priority": 1000000000000
     },
     {
@@ -6162,6 +5902,32 @@
       "priority": 1000000
     },
     {
+      "fullPath": "presets/4.3/vtx/Unify_Pro32_DP_SA2_1.txt",
+      "hash": "d36ffaa5dafae8765431653192f8aa19a1d769f16b1c6385607659130d6d229a",
+      "title": "TBS Unify Pro32 DP SA 2.1",
+      "firmware_version": [
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5",
+        "2025.12",
+        "2026.6"
+      ],
+      "category": "VTX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "vtx",
+        "vtx table",
+        "tbs",
+        "unify",
+        "pro32",
+        "DP",
+        "SA 2.1"
+      ],
+      "author": "andybrwr",
+      "priority": 1000000
+    },
+    {
       "fullPath": "presets/4.3/vtx/Unify_Pro32_HV_SA2_1.txt",
       "hash": "acd71d0d8f3983c55d3237e4af16ead53cd02a58a86edb1fa0d239b4aef8a345",
       "title": "TBS Unify Pro32 HV SA 2.1",
@@ -7104,7 +6870,7 @@
     },
     {
       "fullPath": "presets/4.4/tune/aos_rc/aos_5.5_tune.txt",
-      "hash": "0689bb5a1717f34668116cbd1c33eea79bed39743e0d3e0231085781c750db19",
+      "hash": "353b450a04f04a2c016c94e99eaf4bb37414b6448349e4030eebb2cf54ee9bec",
       "title": "AOS 5.5 tune by Chris Rosser",
       "firmware_version": [
         "4.4",
@@ -7214,7 +6980,7 @@
     },
     {
       "fullPath": "presets/4.4/tune/aos_rc/aos_cine80_tune.txt",
-      "hash": "9cc7b272736578ecff5d61abb750516581e7e4ff45165e74845b9e6755867ad6",
+      "hash": "6a654ea45b184550b5e5b4795d907d39d2b045506830f970d5a70d71310b9349",
       "title": "AOS Cine80 tune by Chris Rosser",
       "firmware_version": [
         "4.4",
@@ -8213,10 +7979,12 @@
     },
     {
       "fullPath": "presets/4.5/filters/aos_rc/aos_3.5_filters.txt",
-      "hash": "207b31c1473442c3585da774337eb8b7417d5300fc2229750561b998ac503040",
+      "hash": "778a91dd064289794f53c3e6f44f963b0babd023b1beb4c07b35a47139fb5e33",
       "title": "AOS 3.5 Filters",
       "firmware_version": [
-        "4.5"
+        "4.5",
+        "2025.12",
+        "2026.6"
       ],
       "category": "FILTERS",
       "status": "COMMUNITY",
@@ -8233,10 +8001,12 @@
     },
     {
       "fullPath": "presets/4.5/filters/aos_rc/aos_4_filters.txt",
-      "hash": "62a0de08898745a6cf5eda062c878f2d5d7a42024f2d5bde1b0b4b73f91fe176",
+      "hash": "f52aebe8c8a31766d466180d086e9e89b16700a68615a92063d9a8890a7f62f6",
       "title": "AOS 4 Filters",
       "firmware_version": [
-        "4.5"
+        "4.5",
+        "2025.12",
+        "2026.6"
       ],
       "category": "FILTERS",
       "status": "COMMUNITY",
@@ -8253,10 +8023,12 @@
     },
     {
       "fullPath": "presets/4.5/filters/aos_rc/aos_5.5_filters.txt",
-      "hash": "ee5ce1221991daad5ee8a79450cca13a21c6ac5d636284ccc63189b3d600d53d",
+      "hash": "06270c75bc93d191fb4dc17960dfbd1e17acb44621fed707bd495f0d2adb52e7",
       "title": "AOS 5.5 Filters",
       "firmware_version": [
-        "4.5"
+        "4.5",
+        "2025.12",
+        "2026.6"
       ],
       "category": "FILTERS",
       "status": "COMMUNITY",
@@ -8273,10 +8045,12 @@
     },
     {
       "fullPath": "presets/4.5/filters/aos_rc/aos_5_filters.txt",
-      "hash": "7aea9aeb8ff85685232517a0a60f98a522a3423df23f5127e969e7c8daa77c5e",
+      "hash": "09c3402061899c0bc56b5f1a23f9fa7c88519af77965f3123e21eb7216f36d09",
       "title": "AOS 5 Filters",
       "firmware_version": [
-        "4.5"
+        "4.5",
+        "2025.12",
+        "2026.6"
       ],
       "category": "FILTERS",
       "status": "COMMUNITY",
@@ -8293,10 +8067,12 @@
     },
     {
       "fullPath": "presets/4.5/filters/aos_rc/aos_65mm_filters.txt",
-      "hash": "cd5c63321d2433fc49227fc31dae6b6c564ad2b5e4471897ae81803fc0e1e349",
+      "hash": "27a0791e6e8e7fa541f53770d6b9a2b6a83b3083117b27f175cb32822f96a7ab",
       "title": "AOS 65mm Filters",
       "firmware_version": [
-        "4.5"
+        "4.5",
+        "2025.12",
+        "2026.6"
       ],
       "category": "FILTERS",
       "status": "EXPERIMENTAL",
@@ -8314,11 +8090,35 @@
       "priority": 100
     },
     {
+      "fullPath": "presets/4.5/filters/aos_rc/aos_6_filters.txt",
+      "hash": "cebd934496637fc92e0fa8858bf59c633cabe4d27ad3593bf8b61305e0e4a06e",
+      "title": "AOS 6 Filters",
+      "firmware_version": [
+        "4.5",
+        "2025.12",
+        "2026.6"
+      ],
+      "category": "FILTERS",
+      "status": "COMMUNITY",
+      "keywords": [
+        "filter",
+        "filters",
+        "aos",
+        "chris",
+        "rosser",
+        "6"
+      ],
+      "author": "Chris Rosser",
+      "priority": 100
+    },
+    {
       "fullPath": "presets/4.5/filters/aos_rc/aos_7_filters.txt",
-      "hash": "9dac53366b54ecfd62949cc403aeb887ad2952c52d01f9ff98a902136e152940",
+      "hash": "c0415ab04eb2454c51929473741eb565b8fb47bb504f5c7ad9c8cdc94d406411",
       "title": "AOS 7 Filters",
       "firmware_version": [
-        "4.5"
+        "4.5",
+        "2025.12",
+        "2026.6"
       ],
       "category": "FILTERS",
       "status": "COMMUNITY",
@@ -8335,10 +8135,12 @@
     },
     {
       "fullPath": "presets/4.5/filters/aos_rc/aos_cine20_filters.txt",
-      "hash": "0b85d206dc4e6e4f6374e8ceb72991be9b15f7539c0533e8965997e5c93bcb22",
+      "hash": "41ad3d197bd3cc4872be5f4abc125e475ac0b2a2c8ede53c6109d16a3fa01afe",
       "title": "AOS Cine20 Filters",
       "firmware_version": [
-        "4.5"
+        "4.5",
+        "2025.12",
+        "2026.6"
       ],
       "category": "FILTERS",
       "status": "COMMUNITY",
@@ -8356,10 +8158,12 @@
     },
     {
       "fullPath": "presets/4.5/filters/aos_rc/aos_cine25_filters.txt",
-      "hash": "5dfe15d044efe1f076db145463a3ad7da6320b0f2d2de941b38d9eeceab3655c",
+      "hash": "6a85370d351a68434e7d02d40bab35531b5ee732fad42118fa509a6061bb1e38",
       "title": "AOS Cine25 Filters",
       "firmware_version": [
-        "4.5"
+        "4.5",
+        "2025.12",
+        "2026.6"
       ],
       "category": "FILTERS",
       "status": "COMMUNITY",
@@ -8377,10 +8181,12 @@
     },
     {
       "fullPath": "presets/4.5/filters/aos_rc/aos_cine30_filters.txt",
-      "hash": "a865ba39ba9c6adc5a1ce4fcb428632e01adc9074841a87dea55da88741f95f9",
+      "hash": "2dac58e55d648634891b50de9588fc8690faec384fc8629832a63972ef6e236b",
       "title": "AOS Cine30 Filters",
       "firmware_version": [
-        "4.5"
+        "4.5",
+        "2025.12",
+        "2026.6"
       ],
       "category": "FILTERS",
       "status": "COMMUNITY",
@@ -8398,10 +8204,12 @@
     },
     {
       "fullPath": "presets/4.5/filters/aos_rc/aos_cine35_filters.txt",
-      "hash": "88350d20547e7485172ff9ee4a162130a986a5f7abff8cc6d3ef908b41ac292c",
+      "hash": "a50bfb7fe4b0e5683a07789580a4645dc0331c71e0b45c16f6013a1a63393d68",
       "title": "AOS Cine35 Filters",
       "firmware_version": [
-        "4.5"
+        "4.5",
+        "2025.12",
+        "2026.6"
       ],
       "category": "FILTERS",
       "status": "COMMUNITY",
@@ -8419,10 +8227,12 @@
     },
     {
       "fullPath": "presets/4.5/filters/aos_rc/aos_cine40_filters.txt",
-      "hash": "c0efc3ecf653467bc45dac69f51363ff037fb17b4faf2bbe9bbc33d1a190021e",
+      "hash": "1a56c89e45e7563ccce0161e4de7bfa5f3fe04080d5b55c3eaeb3ce44c1ccaf5",
       "title": "AOS Cine40 Filters",
       "firmware_version": [
-        "4.5"
+        "4.5",
+        "2025.12",
+        "2026.6"
       ],
       "category": "FILTERS",
       "status": "COMMUNITY",
@@ -8440,10 +8250,12 @@
     },
     {
       "fullPath": "presets/4.5/filters/aos_rc/aos_cine80_filters.txt",
-      "hash": "41098bb761af0151f32fd06e34d0da16f3a3f53865ef3ae5edc196f017eefc8f",
+      "hash": "e7be2c45e877c1d5912056eaa4e12090e4a2b2b30abd9158d11daf97332bf90b",
       "title": "AOS Cine80 Filters",
       "firmware_version": [
-        "4.5"
+        "4.5",
+        "2025.12",
+        "2026.6"
       ],
       "category": "FILTERS",
       "status": "COMMUNITY",
@@ -8460,10 +8272,12 @@
     },
     {
       "fullPath": "presets/4.5/filters/aos_rc/aos_hs5_filters.txt",
-      "hash": "0762d1d723438b57cfe40e67c471497d76157093689edb41884497fb03536edc",
+      "hash": "b1f1ac409858af3524194d742106aa34a3611a3780040bced2abf11b3e160aeb",
       "title": "AOS HS5 200mph Filters",
       "firmware_version": [
-        "4.5"
+        "4.5",
+        "2025.12",
+        "2026.6"
       ],
       "category": "FILTERS",
       "status": "EXPERIMENTAL",
@@ -8480,10 +8294,12 @@
     },
     {
       "fullPath": "presets/4.5/filters/aos_rc/aos_lr5_filters.txt",
-      "hash": "8afe16726d007325771fe8bc5b2d14fb205f1fa2efd7e072c98600a1b38b15f0",
+      "hash": "ce7f9a2b29aae0c14d74a247a1a92226233ddd8772eee063501eadeba9040ce0",
       "title": "AOS LR5 Filters",
       "firmware_version": [
-        "4.5"
+        "4.5",
+        "2025.12",
+        "2026.6"
       ],
       "category": "FILTERS",
       "status": "COMMUNITY",
@@ -8500,10 +8316,12 @@
     },
     {
       "fullPath": "presets/4.5/filters/aos_rc/aos_t3_filters.txt",
-      "hash": "7d4ce64b7a64141ea9de61c6bfe642352b96de7187961d8148fa7c830f9126bf",
+      "hash": "6343df10d03bb93a8bf3c10c09de453be9f353f16dd1e578d4df5c1ab509fc65",
       "title": "AOS T3 Filters",
       "firmware_version": [
-        "4.5"
+        "4.5",
+        "2025.12",
+        "2026.6"
       ],
       "category": "FILTERS",
       "status": "COMMUNITY",
@@ -8521,10 +8339,12 @@
     },
     {
       "fullPath": "presets/4.5/filters/aos_rc/aos_ul10_filters.txt",
-      "hash": "d08019479b0a15c66c45383a827104e54e934310054bd30ce049c2ede6167ebd",
+      "hash": "9f110753a91cae9e9cc138bd221c7eef312adc9404996ba89065b61e002e8c09",
       "title": "AOS UL10 Filters",
       "firmware_version": [
-        "4.5"
+        "4.5",
+        "2025.12",
+        "2026.6"
       ],
       "category": "FILTERS",
       "status": "COMMUNITY",
@@ -8541,10 +8361,12 @@
     },
     {
       "fullPath": "presets/4.5/filters/aos_rc/aos_ul5_filters.txt",
-      "hash": "4248ae596b9df2b204ffc60a596baf3b62dc61ab9c1b1b5cf71f35d5d8ca1dc1",
+      "hash": "d4dc918b0178864feb504874ad51076a971a0dcf9a812b947a8c9a18d6aed07e",
       "title": "AOS UL5 Filters",
       "firmware_version": [
-        "4.5"
+        "4.5",
+        "2025.12",
+        "2026.6"
       ],
       "category": "FILTERS",
       "status": "COMMUNITY",
@@ -8561,10 +8383,12 @@
     },
     {
       "fullPath": "presets/4.5/filters/aos_rc/aos_ul7_filters.txt",
-      "hash": "50586d06319ab09d1b6c6d183bd42f77c77e597f628bb1e674eaeb82be86e81c",
+      "hash": "cb3a680eabd40abb136ac861c5e690421563977d3cafcfbb616a87566bab9c87",
       "title": "AOS UL7 Filters",
       "firmware_version": [
-        "4.5"
+        "4.5",
+        "2025.12",
+        "2026.6"
       ],
       "category": "FILTERS",
       "status": "COMMUNITY",
@@ -8581,10 +8405,12 @@
     },
     {
       "fullPath": "presets/4.5/filters/aos_rc/aos_ul8_filters.txt",
-      "hash": "38cbc253ebea2676f213b1d4b22466b676414b2a2f0416e7caa455b7de1bdf01",
+      "hash": "d84a9fc4d41a828c598f28b0d54fe1efaa8022837b441483a31bdc9757425736",
       "title": "AOS UL8 Filters",
       "firmware_version": [
-        "4.5"
+        "4.5",
+        "2025.12",
+        "2026.6"
       ],
       "category": "FILTERS",
       "status": "COMMUNITY",
@@ -8838,10 +8664,12 @@
     },
     {
       "fullPath": "presets/4.5/filters/defaults.txt",
-      "hash": "618e82175f3f63abfcbdd5315e2c17d915f608ac42af22aa1256470f3d2ea5fe",
+      "hash": "b86b7d2516c514947fe622cb2a69ccfecad55dc9023dfdcc7c7874c6ce12e582",
       "title": "Default 4.5 Filter settings",
       "firmware_version": [
-        "4.5"
+        "4.5",
+        "2025.12",
+        "2026.6"
       ],
       "category": "FILTERS",
       "status": "OFFICIAL",
@@ -9180,12 +9008,14 @@
     },
     {
       "fullPath": "presets/4.5/rates/AOS_rates.txt",
-      "hash": "bcbe2997c5c9d9b648cf4bac0ff7f5abe360c5dbbe1da607a567912398587219",
+      "hash": "2420712a9283b8bcdcdac26f9bc523ae1c40bd94a160ae68feef794c7ed9b1c2",
       "title": "AOS Rates",
       "firmware_version": [
         "4.3",
         "4.4",
-        "4.5"
+        "4.5",
+        "2025.12",
+        "2026.6"
       ],
       "category": "RATES",
       "status": "COMMUNITY",
@@ -9335,7 +9165,7 @@
     },
     {
       "fullPath": "presets/4.5/tune/aos_rc/aos_5.5_tune.txt",
-      "hash": "6e947f8d3954f32b21b01eaf17829617a444c1ccc316694cadae0e90444368b2",
+      "hash": "2fb0278f5a507b2b7b8d4292449761a7d59cd93b88d1a406424ab0ede33d5171",
       "title": "AOS 5.5 tune by Chris Rosser",
       "firmware_version": [
         "4.5"
@@ -9393,6 +9223,27 @@
         "65mm",
         "tiny",
         "whoop"
+      ],
+      "author": "Chris Rosser",
+      "force_options_review": true,
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.5/tune/aos_rc/aos_6_tune.txt",
+      "hash": "dbd778e62ee6a8845127c7f5ca9c3c14c918989516478c15bfa66dd9f6438b06",
+      "title": "AOS 6 tune by Chris Rosser",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "aos",
+        "chris",
+        "rosser",
+        "pid",
+        "tune",
+        "6"
       ],
       "author": "Chris Rosser",
       "force_options_review": true,
@@ -9530,7 +9381,7 @@
     },
     {
       "fullPath": "presets/4.5/tune/aos_rc/aos_cine80_tune.txt",
-      "hash": "5931aa123c704067764b82573a5d30e07992c9929265807e966c7701bc82bde9",
+      "hash": "5101bf4af0276af4fac7fe3e39bbf7594d706747a64a868de0e70f60013e915b",
       "title": "AOS Cine80 tune by Chris Rosser",
       "firmware_version": [
         "4.5"
@@ -9704,7 +9555,7 @@
     },
     {
       "fullPath": "presets/4.5/tune/aos_rc/aos_ul8_tune.txt",
-      "hash": "14bcaa0535c360393c56d5d628304e669982ee3f322b9648e2cd244f9c63ae28",
+      "hash": "255357347d455b483d2709e3d2b959dfb591e205a5238603e4454e5b04c7aecc",
       "title": "AOS UL8 tune by Chris Rosser",
       "firmware_version": [
         "4.5"
