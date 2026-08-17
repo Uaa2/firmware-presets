@@ -1,0 +1,70 @@
+name: Prepare ELRS 50Hz for 2026.6
+
+on:
+  push:
+    branches:
+      - aos-2026.6-ready
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup Node
+        uses: actions/setup-node@v5
+        with:
+          node-version: 20
+
+      - name: Add 2026.6 metadata to ELRS 50Hz chain
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+
+          files = [
+              'presets/2025.12/rc_link/defaults.txt',
+              'presets/2025.12/rc_link/elrs/elrs_50hz.txt',
+              'presets/2025.12/rc_link/generic/50hz_race.txt',
+              'presets/2025.12/rc_link/generic/50hz_freestyle.txt',
+              'presets/2025.12/rc_link/generic/50hz_hd_freestyle.txt',
+              'presets/2025.12/rc_link/generic/50hz_cinematic.txt',
+              'presets/2025.12/rc_link/generic/50hz_ultra_cinematic.txt',
+          ]
+
+          for filename in files:
+              p = Path(filename)
+              text = p.read_text()
+              marker = '#$ FIRMWARE_VERSION: 2025.12\n'
+              addition = '#$ FIRMWARE_VERSION: 2026.6\n'
+              if addition not in text:
+                  if marker not in text:
+                      raise RuntimeError(f'Missing expected version marker in {filename}')
+                  text = text.replace(marker, marker + addition, 1)
+                  p.write_text(text)
+                  print(f'Updated {filename}')
+              else:
+                  print(f'Already updated {filename}')
+          PY
+
+      - name: Rebuild and validate preset index
+        run: |
+          node indexer/indexer.js
+          node indexer/check.js
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add presets/2025.12/rc_link index.json index_hash.txt
+          if git diff --cached --quiet; then
+            echo "No changes needed"
+          else
+            git commit -m "Add 2026.6 support for ELRS 50Hz presets"
+            git push
+          fi
