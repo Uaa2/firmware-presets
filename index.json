@@ -872,10 +872,11 @@
     },
     {
       "fullPath": "presets/2025.12/rc_link/defaults.txt",
-      "hash": "db1fdbfe8ff47d4e8c263f651365dd07f7005933bc7311a63e583067b3ba6a70",
+      "hash": "fa672b405fc5422670ca6a18bdbcca6e445f432bfdc9fa41556ef775029ac48d",
       "title": "Reset RC related settings",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "2026.6"
       ],
       "category": "RC_LINK",
       "status": "OFFICIAL",
@@ -1020,10 +1021,11 @@
     },
     {
       "fullPath": "presets/2025.12/rc_link/elrs/elrs_50hz.txt",
-      "hash": "ac86b881651b5e29f0110eae6b06bfb5bfbd454125b89f00aa2061bdc7265117",
+      "hash": "e12f735578f81183b8ae6e04ec07b66abf590f860a9ef7f0ab71a275b7a549b4",
       "title": "ExpressLRS 50Hz",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "2026.6"
       ],
       "category": "RC_LINK",
       "status": "OFFICIAL",
@@ -1398,10 +1400,11 @@
     },
     {
       "fullPath": "presets/2025.12/rc_link/generic/50hz_cinematic.txt",
-      "hash": "703b6bb09891ac3eaf77331a4ad7e6df3e167867e9b34e86ec346fb16057637f",
+      "hash": "215a26124b6b6b540b24863e4263e04e91f11e177afca15b935112c2003205b6",
       "title": "Generic 50Hz Cinematic",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "2026.6"
       ],
       "category": "RC_LINK",
       "status": "OFFICIAL",
@@ -1418,10 +1421,11 @@
     },
     {
       "fullPath": "presets/2025.12/rc_link/generic/50hz_freestyle.txt",
-      "hash": "46876dbe8b05fa40ec81b5254dcd0ded26557be65c015ac8139ed6fbe610689f",
+      "hash": "72ffb5145fea2526ce668585c73a398a2e72b835f5d33a31384700145e9e0bc7",
       "title": "Generic 50Hz Freestyle",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "2026.6"
       ],
       "category": "RC_LINK",
       "status": "OFFICIAL",
@@ -1438,10 +1442,11 @@
     },
     {
       "fullPath": "presets/2025.12/rc_link/generic/50hz_hd_freestyle.txt",
-      "hash": "b065a44375174a44648449bbacaf7a1c72be52f736c8850b6848ecebc002d2d2",
+      "hash": "ad6e117cc3b4560ac2e192ee70c67dec66ca50d23af668d5dface29c4ae5f0e4",
       "title": "Generic 50Hz HD Freestyle",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "2026.6"
       ],
       "category": "RC_LINK",
       "status": "OFFICIAL",
@@ -1458,10 +1463,11 @@
     },
     {
       "fullPath": "presets/2025.12/rc_link/generic/50hz_race.txt",
-      "hash": "a8524d053fae22aaf71502044cd6d4102146fe19f2b314da2462fbefd3a8a4a1",
+      "hash": "e7753df23e734a7e6a40143418b01025bcc47352af6f529a47d79c0c37623cc4",
       "title": "Generic 50Hz Race",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "2026.6"
       ],
       "category": "RC_LINK",
       "status": "OFFICIAL",
@@ -1478,10 +1484,11 @@
     },
     {
       "fullPath": "presets/2025.12/rc_link/generic/50hz_ultra_cinematic.txt",
-      "hash": "9e52e8af0723630c2976f5befb128c9ddad381443576a57cfed511d9043ac8bb",
+      "hash": "b6af1f34fd535b4c86e18f25514b1d0819eac68eee4653fd2dfbf36ed8224d34",
       "title": "Generic 50Hz Ultra Cinematic",
       "firmware_version": [
-        "2025.12"
+        "2025.12",
+        "2026.6"
       ],
       "category": "RC_LINK",
       "status": "OFFICIAL",
